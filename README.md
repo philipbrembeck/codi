@@ -14,7 +14,7 @@ In the head-tag you'll find the following Stylesheet and Javascripts:
     <script src="lib/codemirror.js"></script>
     <script src="mode/xml/xml.js"></script>
 
-You have to download the latest Version of Codemirror from here: http://codemirror.net/codemirror.zip
+You have to download the latest Version of Codemirror from here: https://github.com/jokenework/CodeMirror/
 Unzip and upload it to the same directory as your index.php lays.
 
 What's that JS on the bottom?
