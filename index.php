@@ -7,18 +7,13 @@
 <title>Codi - A simple fullscreen code editor</title>
 
 <!-- Base CSS -->
-<link rel="stylesheet" href="css/style.min.css">
+<link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="lib/codemirror.css">
 
 <!-- Base JS -->
 <script src="lib/codemirror.js"></script>
 <script src="mode/xml/xml.js"></script>
 
-<style type="text/css">
-#bodk {
-  text-align: center;
-}
-</style>
 </head>
 
 <body id="bod">
