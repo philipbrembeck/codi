@@ -19,7 +19,7 @@ Unzip and upload it to the same directory as your index.php lays.
 
 What's that JS on the bottom?
 --------------
-Okay, thats improtant. This little script makes the editor fullscreen. Codemirror doesn't allow widht: 100%,
+Okay, thats important. This little script makes the editor fullscreen. Codemirror doesn't allow widht: 100%,
 so you have to use Javascript.
 
             <script>
