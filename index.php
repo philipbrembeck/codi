@@ -1,4 +1,3 @@
-<!-- Base Header -->
 <!DOCTYPE html>
 <html>
 <head>
