@@ -14,12 +14,12 @@ In the head-tag you'll find the following Stylesheet and Javascripts:
     <script src="lib/codemirror.js"></script>
     <script src="mode/xml/xml.js"></script>
 
-You have to download the latest Version of Codemirror from here: https://github.com/jokenework/CodeMirror/
+You have to download the latest Version of Codemirror from here: https://github.com/jokenetwork/CodeMirror/
 Unzip and upload it to the same directory as your index.php lays.
 
 What's that JS on the bottom?
 --------------
-Okay, thats important. This little script makes the editor fullscreen. Codemirror doesn't allow widht: 100%,
+Okay, thats important. This little script makes the editor fullscreen. Codemirror doesn't allow width: 100%,
 so you have to use Javascript.
 
             <script>
