@@ -5,13 +5,11 @@
 <!-- Title -->
 <title>Codi - A simple fullscreen code editor</title>
 
-<!-- Base CSS -->
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="lib/codemirror.css">
+<!-- Your encoding goes here -->
 
-<!-- Base JS -->
-<script src="lib/codemirror.js"></script>
-<script src="mode/xml/xml.js"></script>
+<!-- Base CSS -->
+<link rel="stylesheet" href="css/style.css" media="screen">
+<link rel="stylesheet" href="lib/codemirror.css" media="screen">
 
 </head>
 
@@ -22,22 +20,29 @@
 </span>
 <div id="codi">
 <textarea id="code" name="code">
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta charset=UTF-8 />
 <meta name="editor" content="Codi" />
 
 <title>Untitled Document</title>
 </head>
 
 <body>
+<h1>Example Text</h1>
 </body>
 </html>
 </textarea>
 </div>
 
-<script>
+<!-- Base JS -->
+<script src="lib/codemirror.js"></script>
+<script src="mode/xml/xml.js"></script>
+
+<!-- Mode JS -->
+<script type="text/javascript">
 			var delay;
 			var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
 				mode: 'text/html',
