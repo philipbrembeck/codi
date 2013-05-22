@@ -15,11 +15,10 @@
 
 <body id="bod">
 
-<header>
-<span id="bodk"><span class="center">&lt; / &gt;</header>
-</span>
-<div id="codi">
-<textarea id="code" name="code">
+<header><span id="bodk">&lt; / &gt;</header>
+
+	<div id="codi">
+		<textarea id="code" name="code">
 <!DOCTYPE html>
 <html>
 <head>
@@ -34,8 +33,8 @@
 <h1>Example Text</h1>
 </body>
 </html>
-</textarea>
-</div>
+		</textarea>
+	</div>
 
 <!-- Base JS -->
 <script src="lib/codemirror.js"></script>
