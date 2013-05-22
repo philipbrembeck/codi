@@ -7,11 +7,11 @@ Everything you need
 
 In the head-tag you'll find the following Stylesheet and Javascripts:
 
-    <!-- Base CSS -->
+    <!-- Base CSS --> 
     <link rel="stylesheet" href="....">
     <link rel="stylesheet" href="lib/codemirror.css">
 
-    <!-- Base JS -->
+    <!-- Base JS (On the bottom of body) -->
     <script src="lib/codemirror.js"></script>
     <script src="mode/xml/xml.js"></script>
 
@@ -24,7 +24,7 @@ Okay, thats important. This little script makes the editor fullscreen. Codemirro
 so you have to use Javascript.
 
             <script>
-    		var delay;
+    		var delay; 
 			var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
 				mode: 'text/html',
 				tabMode: 'indent',
