@@ -1,6 +1,10 @@
 Codi
 ==============
 
+News
+--------------
+We're working on a "Save as HTML"-Function which you can see live on http://codi.jokenetwork.de - Update soon!
+
 
 Everything you need
 --------------
