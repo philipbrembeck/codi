@@ -3,13 +3,13 @@ Codi
 
 News
 --------------
-We're working on a "Save as HTML"-Function which you can see live on http://codi.jokenetwork.de - Update soon!
+Save-As-HTML-Function is now live!
 
 
 Everything you need
 --------------
 
-In the head-tag you'll find the following Stylesheet and Javascripts:
+In the head-tag you'll find the following Stylesheets and Javascripts:
 
     <!-- Base CSS --> 
     <link rel="stylesheet" href="....">
