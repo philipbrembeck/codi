@@ -9,6 +9,6 @@ header("Content-Length: $Grösse");
 readfile($Datei);
 }
 else {
-header('Location: http://yourdomain.com/codi'.$Datei);
+header('Location: http://yourdomain.com/codi/api/'.$Datei);
 }
 ?>
