@@ -90,7 +90,7 @@ echo "<script type='text/javascript'>$(window).load(function(){ $('#html').modal
     <h2 id="stop_4"><em>&lt; / &gt;</em></h2>
   </div>
   <div class="modal-body">
-    Your file is available here: <a href="http://yourdomain.com/codi/download.php?f=api/<?php echo $rand; ?>.html"><?php echo $rand ?>.html</a>
+    Your file is available here: <a href="http://yourdomain.com/codi/download.php?f=api/<?php echo $rand; ?>.html&amp;download=y"><?php echo $rand ?>.html</a>
   </div>
   <div class="modal-footer"><a href="#" class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-file"></i> Edit</a></div>
 </div>
