@@ -1,14 +1,14 @@
 <?php
-$Datei = $_GET['f'];
+$file = $_GET['f'];
 if ($_GET['download'] == "y"){
-$Dateiname = basename($Datei);
-$Grösse = filesize($Datei);
+$filename = basename($file);
+$Size = filesize($file);
 header("Content-Type: application/force-download");
-header("Content-Disposition: attachment; filename=".$Dateiname);
-header("Content-Length: $Grösse");
-readfile($Datei);
+header("Content-Disposition: attachment; filename=".$filename);
+header("Content-Length: $Size");
+readfile($file;
 }
 else {
-header('Location: http://yourdomain.com/codi'.$Datei);
+header('Location: http://yourdomain.com/codi'.$file);
 }
 ?>
