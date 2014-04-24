@@ -5,7 +5,8 @@ Codi
 
 Codi is a little CodeMirror-Wrapper / You could use it as an HTML-, PHP-, CSS- JavaScript- or Mark-up/down- Editor
 
-Codi is not in development anymore...
+----
+News
 --------------
 
 We began to develop Codi almost 1 year ago. 
