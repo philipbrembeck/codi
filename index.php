@@ -8,7 +8,7 @@
 <!-- Base CSS -->
 <link rel="stylesheet" href="css/style.min.css">
 <link rel="stylesheet" href="lib/codemirror.css">
-<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" /><!-- Bootstrap goes here -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" /><!-- Bootstrap goes here (go to getbootstrap.com and download it from there!) -->
 <link href="css/style.min.css" rel="stylesheet" media="screen" />
 
 <!-- iOS -->
