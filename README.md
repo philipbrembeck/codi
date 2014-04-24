@@ -25,7 +25,7 @@ The [JokeNetwork](https://jokenetwork.de/ref/codi-git) Founder-Team
 
 [List of supporters](http://cldsi.de/1iR1lmX)
 
---------------
+-
 
 
 What do I need to know?
