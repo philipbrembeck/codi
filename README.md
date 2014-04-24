@@ -1,5 +1,6 @@
-![JokeNetwork Logo](http://jokenetwork.de/img/logo.svg =100x20)
-![](http://jokenetwork.de/img/logo.svg =100x20)
+
+
+<img src="http://jokenetwork.de/img/logo.svg" alt="Logo" style="width: 100px; height: 150px;">
 
 Codi
 ==============
