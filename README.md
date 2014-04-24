@@ -70,3 +70,8 @@ Okay, that's the most important part of Codi. Because CodeMirror doesn't allow 1
 
 That's just all!
 
+Export as HTML
+--------------
+
+If you want to use "Export as HTML", you have to create a folder called "api" with chmod 777.
+
