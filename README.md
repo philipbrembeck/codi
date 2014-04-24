@@ -1,4 +1,4 @@
-<p align="center"><img src="http://jokenetwork.de/img/logo.svg" alt="Logo" height="200px"><br><b>JokeNetwork</b></p>
+<p align="center"><img src="http://jokenetwork.de/img/logo.svg" alt="Logo" height="200px"><br><img src="http://cl.ly/image/061l3E2a2A2k/jkntwrk.png" alt="Webdesign &amp; WebApps"><br><b>JokeNetwork</b></p>
 
 Codi
 ==============
