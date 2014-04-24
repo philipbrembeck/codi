@@ -1,4 +1,4 @@
-[JokeNetwork Logo](http://jokenetwork.de/img/logo.svg "JokeNetwork Logo")
+![JokeNetwork Logo](http://jokenetwork.de/img/logo.svg "JokeNetwork Logo")
 
 Codi
 ==============
