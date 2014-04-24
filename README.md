@@ -10,7 +10,7 @@ News
 
 We began to develop Codi almost 1 year ago. 
 When we didn't have the money to buy editors such as [Coda by Panic](http://www.panic.com/coda/) or [Adobe's Dreamweaver](http://www.adobe.com/de/products/dreamweaver.html) (which we use today, they're super awesome) we started the development of Codi. A simple code-editor for HTML, JavaScript, CSS and PHP. 
-First, we wrote our own Markup-Highlighter, which took like forever and in the end, it looked like sh*t. So wee looked for an alternative and we found [CodeMirror](https://github.com/jokenetwork/CodeMirror/).
+First, we wrote our own Markup-Highlighter, which took like forever and in the end, it looked like sh*t. So we looked for an alternative and we found [CodeMirror](https://github.com/jokenetwork/CodeMirror/).
 Our first index-page of codi was as long as 4000 lines of code. Today, Codi is a 100 lines CodeMirror-Wrapper with some extra features - The source of Codi is realy, realy simple. And that's good, because anyone can understand it.
 
 Codi is a simple beginner editor for everyone who wants to learn HTML and the other languages.
