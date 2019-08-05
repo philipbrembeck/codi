@@ -3,36 +3,29 @@
 Codi
 ==============
 
-Codi is a light-weight CodeMirror-Wrapper
-You could use it as an HTML-, PHP-, CSS- JavaScript- or Mark-up/down- Editor. 
+Codi is a light-weight CodeMirror-Wrapper.
+You can use it as an HTML-, PHP-, CSS- JavaScript- or Mark-up/down- Editor. 
 
 Informations
 --------------
 
-We began to develop Codi almost 1 year ago. 
-When we didn't have the money to buy editors such as [Coda by Panic](http://www.panic.com/coda/), [SublimeText](http://www.sublimetext.com) or [Adobe's Dreamweaver](http://www.adobe.com/de/products/dreamweaver.html) (which we use today, they're super awesome) we started the development of Codi. 
-A simple code-editor for HTML, JavaScript, CSS and PHP. 
+Codi was fully developed in 2015. 
+We wanted to have an editor with us, no matter where we go. No nice apps existed at this point (especially for iOS), so we built our own light-weight one, based on HTML, JavaScript and a bit of PHP.
 
-First, we wrote our own Markup-Highlighter, which took like forever and in the end, it looked like sh*t. 4000 lines of code. For nothing. 
+Our own markup-highlighter didn't work as we exspected.
 So we looked for an alternative and we found [CodeMirror](https://github.com/jokenetwork/CodeMirror/).
-Yeah, CodeMirror is nice, but without a wrapper, it's not usable as a "real" online-based editor, because it would only fill one half of a page..
+CodeMirror is super nice, but without a wrapper, it's not usable as a "real" online-based editor, because it would only fill one half of a page.
 Codi is extremly simple, 100 lines of Code, light-weight and understandable foreveryone who knows a little bit of PHP and JS!
 
 Codi is a simple beginner editor for everyone who wants to learn HTML and the other languages.
 This is the sourcecode - If you want to see Codi in action, visit [Codi (SSL; hosted on an external website)](https://jokenetwork.de/codi/).
 
-Sadly, this is the end of Codi..
-We won't delete this page, but there will be no updates or something. 
-Maybe, no one will ever use this for something, but maybe we can help someone with this, so, why not?
+Sadly, we can't focus on the Development of Codi anymore, so now it's your turn, if you want to.
 
 Codi was the first part of our learning process and now we're looking into the future, into new projects. 
-Thanks to every user, to every supporter and thanks to everyone else!
 
 Sincerely,
-The [JokeNetwork](https://jokenetwork.de/ref/codi-git) Founder-Team
-
-
-[List of supporters](http://cldsi.de/1iR1lmX)
+The [JokeNetwork](https://jokenetwork.de/ref/codi-git) Team
 
 
 What do I need to know?
@@ -57,7 +50,7 @@ Unzip and upload it to the same directory as your index.php.
 
 Now, let's wrap it!
 --------------
-Okay, that's the most important part of Codi. Because CodeMirror doesn't allow 100% widht and 100% height (it just don't work), we need a little bit of JavaScript:
+Okay, that's the most important part of Codi. Because CodeMirror doesn't allow 100% width and 100% height (it just doesn't work), we need a little bit of JavaScript:
 
             <script>
     		var delay; 
@@ -84,7 +77,5 @@ That's all! You're good to go :)
 Export as HTML
 --------------
 
-If you want to use "Export as HTML", you have to create a folder called "api" with chmod 777.
-
-Do it!
+If you want to use "Export as HTML", you have to create a folder called "api" with chmod 777. We don't recommend doing this, if you don't know what you're doing.
 
