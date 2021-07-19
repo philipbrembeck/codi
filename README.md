@@ -1,24 +1,39 @@
-Codi
-==============
+![Codi Logo](https://jokenetwork.de/git/img/CodiWrapper.svg)
+
+# Codi Codemirror Wrapper for Fullscreen Editing 
+![Top Languages](https://img.shields.io/github/languages/top/philipbrembeck/codi?style=flat-square)
+![CSS Version](https://img.shields.io/badge/CSS-v3-blue?style=flat-square)
+![HTML Version](https://img.shields.io/badge/HTML-v5-red?style=flat-square)
+![License](https://img.shields.io/github/license/philipbrembeck/codi?style=flat-square)
 
 Codi is a light-weight CodeMirror-Wrapper.
 You can use it as an HTML-, PHP-, CSS- JavaScript- or Mark-up/down- Editor. 
 
-Informations
---------------
+### Appearance
+![Codi Screenshot](https://jokenetwork.de/git/img/codiscreenshot.png)
+Codi can appear in different themes, see [CodeMirror Styling Example](https://codemirror.net/6/examples/styling/) for more information.
 
+### Behind Codi
 I needed a markdown/html/css editor for the web, as quick as possible.
 
 So I found CodeMirror, which is super nice, but without a wrapper, it's not usable as a "real" online-based editor, because it would only fill one half of a page.
 Codi is extremly simple, 100 lines of Code, light-weight and understandable for everyone who knows a little bit of JS!
 
 Codi is a simple beginner editor for everyone who wants to learn HTML and the other languages.
-This is the sourcecode - If you want to see Codi in action, visit [Codi (SSL; hosted on an external website)](https://jokenetwork.de/codi/).
 
+#### Demo
+If you want to see Codi in action, visit [Codi](https://jokenetwork.de/codi/).
 
-What do I need to know?
---------------
+### Usage
 
+Clone this repository with:
+
+    gh repo clone philipbrembeck/codi
+
+or via HTTPS:
+
+    https://github.com/philipbrembeck/codi.git
+    
 index.php
 
 This is the head-section of Codi - Here, we include the CSS-Stylesheets. If you want to use a personalized Stylesheet, palce it here.
@@ -33,12 +48,10 @@ This is the JavaScript-section -  It's located on the end of the index's body, t
     <script src="lib/codemirror.js"></script>
     <script src="mode/xml/xml.js"></script>
 
-You have to download the latest Version of Codemirror from their GitHub repository.
+You have to download the latest Version of Codemirror from their [GitHub repository](https://github.com/codemirror/codemirror.next/).
 Unzip and upload it to the same directory as your index.php.
 
-Now, let's wrap it!
---------------
-Okay, that's the most important part of Codi. Because CodeMirror doesn't allow 100% width and 100% height (it just doesn't work), we need a little bit of JavaScript:
+Because CodeMirror doesn't allow 100% width and 100% height as CSS-styling, we need a little bit of JavaScript:
 
             <script>
     		var delay; 
@@ -62,8 +75,8 @@ Okay, that's the most important part of Codi. Because CodeMirror doesn't allow 1
 
 That's all! You're good to go :)
 
-Export as HTML
---------------
 
-If you want to use "Export as HTML", you have to create a folder called "api" with chmod 777. I don't recommend doing this, until you know what you're doing.
+### Export as HTML
+If you want to use Codi on the go or implement it in your site, you probably also want to use the "Export as HTML" function.
+If you want to use "Export as HTML", you have to create a folder called "api" with chmod 777. Then you're good to go"
 
