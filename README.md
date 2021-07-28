@@ -1,4 +1,4 @@
-![Codi Logo](https://jokenetwork.de/git/img/CodiWrapper.svg)
+![Codi Logo](logo.svg)
 
 # Codi Codemirror Wrapper for Fullscreen Editing 
 ![Top Languages](https://img.shields.io/github/languages/top/philipbrembeck/codi?style=flat-square)
