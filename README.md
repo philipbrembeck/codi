@@ -22,7 +22,7 @@ Codi is extremly simple, 100 lines of Code, light-weight and understandable for 
 Codi is a simple beginner editor for everyone who wants to learn HTML and the other languages.
 
 #### Demo
-If you want to see Codi in action, visit [Codi](https://jokenetwork.de/codi/).
+If you want to see Codi in action, visit [Codi](https://jokenetwork.de/codi/) or see the deployed version of this repo [here](https://home-5003805596.app-ionos.space/).
 
 ### Usage
 
