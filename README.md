@@ -10,7 +10,7 @@ Codi is a light-weight CodeMirror-Wrapper.
 You can use it as an HTML-, PHP-, CSS- JavaScript- or Mark-up/down- Editor. 
 
 ### Appearance
-![Codi Screenshot](https://jokenetwork.de/git/img/codiscreenshot.png)
+![Codi Screenshot](hero.png)
 Codi can appear in different themes, see [CodeMirror Styling Example](https://codemirror.net/6/examples/styling/) for more information.
 
 ### Behind Codi
@@ -40,16 +40,13 @@ This is the head-section of Codi - Here, we include the CSS-Stylesheets. If you 
 
     <!-- Base CSS --> 
     <link rel="stylesheet" href="...."> <!-- Your own stylesheet here -->
-    <link rel="stylesheet" href="lib/codemirror.css"> <!-- CodeMirror: DON'T DELETE THIS -->
+    <link rel="stylesheet" href="assets/css/style.min.css"> <!-- Don't delete this! CodeMirror and Bootstrap included! -->
     
 This is the JavaScript-section -  It's located on the end of the index's body, to improve the speed of your site, the CodeMirror libarys are included here.
 
     <!-- Base JS (On the bottom of body) -->
-    <script src="lib/codemirror.js"></script>
-    <script src="mode/xml/xml.js"></script>
+    <script src="assets/js/codemirror.js"></script>
 
-You have to download the latest Version of Codemirror from their [GitHub repository](https://github.com/codemirror/codemirror.next/).
-Unzip and upload it to the same directory as your index.php.
 
 Because CodeMirror doesn't allow 100% width and 100% height as CSS-styling, we need a little bit of JavaScript:
 
