@@ -1,3 +1,6 @@
+@import url('codemirror.css');
+@import url('bootstrap.min.css');
+
 /*
 Codi by philipbrembeck on Github
 MIT License
@@ -60,6 +63,3 @@ footer {
 #bodk {
     text-align: center;
 }
-
-@import url('codemirror.css');
-@import url('bootstrap.min.css');
