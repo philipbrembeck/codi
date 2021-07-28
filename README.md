@@ -37,19 +37,20 @@ or via HTTPS:
 index.php
 
 This is the head-section of Codi - Here, we include the CSS-Stylesheets. If you want to use a personalized Stylesheet, palce it here.
-
+```css
     <!-- Base CSS --> 
     <link rel="stylesheet" href="...."> <!-- Your own stylesheet here -->
     <link rel="stylesheet" href="assets/css/style.min.css"> <!-- Don't delete this! CodeMirror and Bootstrap included! -->
-    
+```
+  
 This is the JavaScript-section -  It's located on the end of the index's body, to improve the speed of your site, the CodeMirror libarys are included here.
-
+```html
     <!-- Base JS (On the bottom of body) -->
     <script src="assets/js/codemirror.js"></script>
-
+```
 
 Because CodeMirror doesn't allow 100% width and 100% height as CSS-styling, we need a little bit of JavaScript:
-
+```javascript
             <script>
     		var delay; 
 			var editor = CodeMirror.fromTextArea(document.getElementById('code'), {
@@ -69,6 +70,7 @@ Because CodeMirror doesn't allow 100% width and 100% height as CSS-styling, we n
 				});
 			 });
 		     </script>
+```
 
 That's all! You're good to go :)
 
