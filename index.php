@@ -5,6 +5,12 @@
 		<title>Codi - A simple fullscreen code editor</title>
 		<link rel="stylesheet" href="assets/css/style.min.css">
 		<meta name="viewport" content="initial-scale=1.0">
+
+		<!-- Base JS -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<script src="assets/js/codemirror.js"></script>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/xml.js"></script>
 	</head>
 
 	<body id="bod">
@@ -70,11 +76,6 @@
 	  </div>
 	  <div class="modal-footer"><a href="#" class="btn" data-dismiss="modal" aria-hidden="true"><i class="icon-file"></i> Edit</a></div>
 	</div>
-
-	<!-- Base JS -->
-	<script src="assets/js/codemirror.js"></script>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
 
 	</body>
 </html>
