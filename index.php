@@ -3,10 +3,8 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Codi - A simple fullscreen code editor</title>
-		<link rel="stylesheet" href="css/style.min.css"><!-- Base CSS (included) -->
-		<link rel="stylesheet" href="lib/codemirror.css"><!-- Path to codemirror.css -->
-		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen" /><!-- Bootstrap goes here (go to getbootstrap.com and download it from there!) -->
-		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="assets/css/style.min.css">
+		<meta name="viewport" content="initial-scale=1.0">
 	</head>
 
 	<body id="bod">
@@ -74,9 +72,9 @@
 	</div>
 
 	<!-- Base JS -->
-	<script src="lib/codemirror.js"></script><!-- Path tho codemirror.js -->
-	<script src="jquery.min.js"></script><!-- Newest version of JQuery goes here -->
-	<script src="js/bootstrap.js"></script><!-- Bootstrap JS goes here -->
+	<script src="assets/js/codemirror.js"></script>
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
 
 	</body>
 </html>
