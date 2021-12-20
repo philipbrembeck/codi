@@ -1,6 +1,7 @@
 ![Codi Logo](logo.svg)
 
 # Codi Codemirror Wrapper for Fullscreen Editing 
+[![Status: EOL](https://jokenetwork.de/assets/img/gitstatus/discontinued.svg)](https://jokenetwork.de/badges)
 ![Top Languages](https://img.shields.io/github/languages/top/philipbrembeck/codi?style=flat-square)
 ![CSS Version](https://img.shields.io/badge/CSS-v3-blue?style=flat-square)
 ![HTML Version](https://img.shields.io/badge/HTML-v5-red?style=flat-square)
