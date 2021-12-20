@@ -5,7 +5,6 @@
 ![Top Languages](https://img.shields.io/github/languages/top/philipbrembeck/codi?style=flat-square)
 ![CSS Version](https://img.shields.io/badge/CSS-v3-blue?style=flat-square)
 ![HTML Version](https://img.shields.io/badge/HTML-v5-red?style=flat-square)
-<a href="https://jokenetwork.de/badges"><img alt="JKN Status: Inactive" src="https://jokenetwork.de/assets/img/gitstatus/inactive.svg"></a>
 ![License](https://img.shields.io/github/license/philipbrembeck/codi?style=flat-square)
 
 
